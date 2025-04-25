@@ -26,12 +26,6 @@ function preload() {
 }
 
 function setup() {
-   createCanvas(600, 400);
-  background(50);
-  textSize(32);
-  fill(255);
-  text("Hello, p5.js!", 100, 200);
-  
   let cnv = createCanvas(1000, 1000);
   cnv.mousePressed(canvasPressed); //play when users click on the screen
 
